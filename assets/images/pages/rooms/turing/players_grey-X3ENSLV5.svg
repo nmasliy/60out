@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg baseProfile="basic" version="1.1" viewBox="0 0 124 43" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+	<polygon points="6.9 42.5 0.5 36 0.5 7.2 6.2 0.5 123.5 0.5 123.5 35.5 88.8 35.5 82.8 42.5" clip-rule="evenodd" fill="#EAEAEA" fill-rule="evenodd"/>
+	<path d="M123,1v34H89h-0.5l-0.3,0.3L82.5,42H7.1L1,35.8V7.4L6.5,1H123 M124,0H6L0,7v29.2L6.7,43H83l6-7h35V0L124,0z   " fill="#DCDBDB"/>
+</svg>

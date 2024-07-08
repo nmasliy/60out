@@ -1,0 +1,19 @@
+<svg style="display: none;" id="room_details" xmlns="http://www.w3.org/2000/svg"><symbol id="room_details-location" viewBox="0 0 32 32">
+<title>location</title>
+<path fill="none" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.9412" stroke="#000" d="M16 28.19v-12.127M16 16.063c3.366 0 6.095-2.743 6.095-6.127s-2.729-6.127-6.095-6.127c-3.366 0-6.095 2.743-6.095 6.127s2.729 6.127 6.095 6.127z"></path>
+</symbol><symbol id="room_details-players_count" viewBox="0 0 32 32">
+<title>players_count</title>
+<path fill="none" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.9412" stroke="#000" d="M22.536 7.593c0.672-0.625 1.527-1 2.504-1 2.077 0 3.787 1.75 3.787 3.875s-1.71 3.875-3.787 3.875c-0.977 0-1.893-0.375-2.565-1M8.305 27.345c0 0 1.283-5.063 1.71-6.251 0.428-1.25 1.038-2.313 2.015-2.875 0.916-0.563 1.832-0.75 3.848-0.75s3.115-0.125 4.275 0.563c1.16 0.688 1.588 1.313 2.138 2.563s2.077 6.688 2.077 6.688M21.253 17.094c0.244-0.375 0.489-0.75 0.855-0.938 0.611-0.438 1.283-0.563 2.626-0.563s2.138-0.063 2.932 0.438c0.794 0.5 1.099 1 1.466 1.938s1.405 5.001 1.405 5.001M9.466 7.593c-0.672-0.625-1.527-1-2.504-1-2.077 0-3.787 1.75-3.787 3.875s1.71 3.875 3.787 3.875c0.977 0 1.893-0.375 2.565-1M10.747 17.094c-0.244-0.375-0.489-0.75-0.855-0.938-0.611-0.438-1.283-0.563-2.626-0.563s-2.138-0.063-2.932 0.438c-0.794 0.5-1.099 1-1.466 1.938s-1.405 5.001-1.405 5.001M21.497 10.218c0 3.072-2.434 5.563-5.436 5.563s-5.435-2.491-5.435-5.563c0-3.072 2.434-5.563 5.435-5.563s5.436 2.491 5.436 5.563z"></path>
+</symbol><symbol id="room_details-difficulty" viewBox="0 0 32 32">
+<title>difficulty</title>
+<path fill="none" stroke-linejoin="round" stroke-linecap="square" stroke-miterlimit="10" stroke-width="0.9412" stroke="#000" d="M16.031 27.429l-11.102-7.765 11.102-15.092M16.031 27.429v-22.857M16.031 27.429l11.040-7.765-11.040-15.092"></path>
+</symbol><symbol id="room_details-genre" viewBox="0 0 32 32">
+<title>genre</title>
+<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.9412" stroke="#000" d="M10.235 17.487v6.15M16 4.038v6.15M7.256 20.596h5.959M19.886 20.325l2.526-2.501M24.096 21.542l-2.397 2.433M9.912 27.962h12.177c3.886 0 6.995-3.244 6.995-7.299s-3.109-7.299-6.995-7.299h-12.177c-3.886 0-6.995 3.244-6.995 7.299s3.109 7.299 6.995 7.299z"></path>
+</symbol><symbol id="room_details-time" viewBox="0 0 30 32">
+<title>time</title>
+<path fill="none" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.9412" stroke="#000" d="M15.060 12.229v5.049h3.73M22.455 6.732l3.151 3.068M7.6 6.732l-3.087 3.068M11.587 4.751h6.945M15.060 4.751v2.557M25.091 17.278c0 5.507-4.491 9.971-10.032 9.971s-10.032-4.464-10.032-9.971c0-5.507 4.491-9.971 10.032-9.971s10.032 4.464 10.032 9.971z"></path>
+</symbol><symbol id="room_details-phone" viewBox="0 0 32 32">
+<title>phone</title>
+<path fill="none" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="10" stroke-width="0.9412" stroke="#000" d="M13.032 6.762h5.936M19.881 27.429h-7.762c-1.827 0-3.262-1.362-3.262-2.961v-16.936c0-1.658 1.501-2.961 3.262-2.961h7.762c1.827 0 3.261 1.362 3.261 2.961v16.876c0 1.658-1.435 3.020-3.261 3.020zM17.468 24.942c0 0.72-0.643 1.303-1.435 1.303s-1.435-0.583-1.435-1.303c0-0.72 0.643-1.303 1.435-1.303s1.435 0.583 1.435 1.303z"></path>
+</symbol></svg>

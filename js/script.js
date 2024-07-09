@@ -105,7 +105,7 @@ window.addEventListener("DOMContentLoaded", function () {
   }
 
   function initSliders() {
-    const bannerSlider = document.querySelector(".promotions_slider");
+    const bannerSlider = document.querySelector(".promotions_slider.splide");
     if (bannerSlider) {
       const bannerSplide = new Splide(bannerSlider, {
         pagination: false,
@@ -121,6 +121,7 @@ window.addEventListener("DOMContentLoaded", function () {
         pagination: false,
         perPage: 4,
         perMove: 1,
+        type: 'loop',
         gap: 30,
         breakpoints: {
           1440: {
@@ -142,9 +143,12 @@ window.addEventListener("DOMContentLoaded", function () {
       ".reviews_carousel.without_rating .reviews_list"
     );
     if (reviewsSliderWithoutRating) {
+      const slidesCount = reviewsSliderWithoutRating.querySelectorAll('.splide__slide').length;
+      let startSlidesPerPage = slidesCount > 4 ? 5 : Math.max(slidesCount, 2);
       const reviewsSplide = new Splide(reviewsSliderWithoutRating, {
         pagination: false,
-        perPage: 5,
+        type: 'loop',
+        perPage: startSlidesPerPage,
         perMove: 1,
         gap: 30,
         breakpoints: {
@@ -163,11 +167,21 @@ window.addEventListener("DOMContentLoaded", function () {
       }).mount();
     }
 
-    const mediaSlider = document.querySelector(".media_slider");
+    const mediaSlider = document.querySelector(".media_slider.splide");
     if (mediaSlider) {
-      const mediaSplide = new Splide(mediaSlider, {
-        arrows: false,
-      }).mount();
+      let options = {};
+      if (document.querySelector(".jumanji_page")) {
+        options = {
+          arrows: false,
+        };
+      } else {
+        options = {
+          arrows: false,
+          type: "loop",
+          pagination: false,
+        };
+      }
+      const mediaSplide = new Splide(mediaSlider, options).mount();
 
       const videoItems = mediaSlider.querySelectorAll(".video");
       mediaSplide.on("move", function (e) {
@@ -179,7 +193,7 @@ window.addEventListener("DOMContentLoaded", function () {
       });
     }
 
-    const roomsSlider = document.querySelector(".rooms_list");
+    const roomsSlider = document.querySelector(".rooms_list.splide");
     if (roomsSlider) {
       const roomsSplide = new Splide(roomsSlider, {
         pagination: false,
@@ -202,6 +216,20 @@ window.addEventListener("DOMContentLoaded", function () {
           },
         },
       }).mount();
+    }
+
+    const imagesSlider = document.querySelector(".images_slider.splide");
+    if (imagesSlider) {
+      const thumbnails = document.querySelectorAll(".thumbnails_slider .slide");
+      const imagesSplide = new Splide(imagesSlider, {
+        pagination: false,
+      }).mount();
+
+      thumbnails.forEach((item, index) => {
+        item.addEventListener("click", (e) => {
+          imagesSplide.go(index);
+        });
+      });
     }
   }
 
@@ -350,53 +378,57 @@ window.addEventListener("DOMContentLoaded", function () {
 
   function initCalendar() {
     const dropdownCalendar = document.querySelector("#dropdown_calendar");
-    const dropdownCalendarDatepicker = new Datepicker(dropdownCalendar, {
-      min: getYesterday(new Date()),
-      max: getLastDayAfterThreeMonths(new Date()),
-      onChange: (date) => {
-        dropdownCalendar.textContent = formatDate(new Date(date));
-      },
-      openOn: "today",
-      classNames: {
-        node: "datepicker dropdown-datepicker",
-      },
-      templates: {
-        container: [
-          '<div class="datepicker__container">',
-          "<% for (var i = 0; i <= 3; i++) { %>",
-          '<div class="datepicker__pane">',
-          "<%= renderHeader(i) %>",
-          "<%= renderCalendar(i) %>",
-          "</div>",
-          "<% } %>",
-          "</div>",
-        ].join(""),
-      },
-    });
-    dropdownCalendar.textContent = formatDate(new Date());
+    if (dropdownCalendar) {
+      const dropdownCalendarDatepicker = new Datepicker(dropdownCalendar, {
+        min: getYesterday(new Date()),
+        max: getLastDayAfterThreeMonths(new Date()),
+        onChange: (date) => {
+          dropdownCalendar.textContent = formatDate(new Date(date));
+        },
+        openOn: "today",
+        classNames: {
+          node: "datepicker dropdown-datepicker",
+        },
+        templates: {
+          container: [
+            '<div class="datepicker__container">',
+            "<% for (var i = 0; i <= 3; i++) { %>",
+            '<div class="datepicker__pane">',
+            "<%= renderHeader(i) %>",
+            "<%= renderCalendar(i) %>",
+            "</div>",
+            "<% } %>",
+            "</div>",
+          ].join(""),
+        },
+      });
+      dropdownCalendar.textContent = formatDate(new Date());
+    }
+    const calendar = document.querySelector("#calendar-datepicker");
 
-    const calendar = new Datepicker("#calendar-datepicker", {
-      inline: true,
-      min: getYesterday(new Date()),
-      max: getLastDayAfterThreeMonths(new Date()),
-      classNames: {
-        node: "datepicker calendar-datepicker",
-      },
-      openOn: "today",
-      templates: {
-        container: [
-          '<div class="datepicker__container">',
-          "<% for (var i = 0; i <= 3; i++) { %>",
-          '<div class="datepicker__pane">',
-          "<%= renderHeader(i) %>",
-          "<%= renderCalendar(i) %>",
-          "</div>",
-          "<% } %>",
-          "</div>",
-        ].join(""),
-      },
-    });
-
+    if (calendar) {
+      const calendarDatepicker = new Datepicker("#calendar-datepicker", {
+        inline: true,
+        min: getYesterday(new Date()),
+        max: getLastDayAfterThreeMonths(new Date()),
+        classNames: {
+          node: "datepicker calendar-datepicker",
+        },
+        openOn: "today",
+        templates: {
+          container: [
+            '<div class="datepicker__container">',
+            "<% for (var i = 0; i <= 3; i++) { %>",
+            '<div class="datepicker__pane">',
+            "<%= renderHeader(i) %>",
+            "<%= renderCalendar(i) %>",
+            "</div>",
+            "<% } %>",
+            "</div>",
+          ].join(""),
+        },
+      });
+    }
     function formatDate(date) {
       const months = [
         "January",
@@ -485,12 +517,17 @@ window.addEventListener("DOMContentLoaded", function () {
     const modal = document.querySelector("#actin-modal");
     const overlay = document.querySelector(".reveal-overlay");
 
+    if (!modal || !overlay) return;
+
     buttons.forEach((btn) => {
       btn.addEventListener("click", openModal);
     });
 
     overlay.addEventListener("click", (e) => {
-      if (!e.target.closest("#actin-modal") || e.target.closest('.return_button')) {
+      if (
+        !e.target.closest("#actin-modal") ||
+        e.target.closest(".return_button")
+      ) {
         closeModal();
       }
     });

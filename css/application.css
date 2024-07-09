@@ -3110,7 +3110,7 @@ screen and (min-width:64em) {
   display: block;
   height: 1.875rem;
   width: 5.625rem;
-  background-image: url(/assets/images/layout/logos/logo_black-EVNQOWJA.svg);
+  background-image: url(../img/logo_black.svg);
   background-position: center center;
   background-repeat: no-repeat
 }
@@ -3854,7 +3854,7 @@ screen and (min-width:64em) {
   height: 2.0625rem;
   width: 6.5625rem;
   margin-bottom: .9375rem;
-  background-image: url(/assets/images/layout/logos/logo_white-BF3REDMR.svg);
+  background-image: url(../img/logo_white.svg);
   background-position: center center;
   background-repeat: no-repeat
 }

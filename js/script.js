@@ -15,6 +15,7 @@ window.addEventListener("DOMContentLoaded", function () {
   initCalendar();
   initMuiSelects();
   initAddGameModal();
+  initToggleRoomDetails();
 
   function initRoomsVideo() {
     const roomsWithVideo = document.querySelectorAll(".has_video_teaser");
@@ -121,7 +122,7 @@ window.addEventListener("DOMContentLoaded", function () {
         pagination: false,
         perPage: 4,
         perMove: 1,
-        type: 'loop',
+        type: "loop",
         gap: 30,
         breakpoints: {
           1440: {
@@ -143,11 +144,12 @@ window.addEventListener("DOMContentLoaded", function () {
       ".reviews_carousel.without_rating .reviews_list"
     );
     if (reviewsSliderWithoutRating) {
-      const slidesCount = reviewsSliderWithoutRating.querySelectorAll('.splide__slide').length;
+      const slidesCount =
+        reviewsSliderWithoutRating.querySelectorAll(".splide__slide").length;
       let startSlidesPerPage = slidesCount > 4 ? 5 : Math.max(slidesCount, 2);
       const reviewsSplide = new Splide(reviewsSliderWithoutRating, {
         pagination: false,
-        type: 'loop',
+        type: "loop",
         perPage: startSlidesPerPage,
         perMove: 1,
         gap: 30,
@@ -547,5 +549,24 @@ window.addEventListener("DOMContentLoaded", function () {
       document.documentElement.classList.remove("zf-has-scroll");
       document.documentElement.classList.remove("is-reveal-open");
     }
+  }
+
+  function initToggleRoomDetails() {
+    const btn = document.querySelector(".show_room_details_button");
+    const content = document.querySelector('.details_and_location');
+
+    if (!btn || !content) return;
+
+    btn.addEventListener("click", (e) => {
+      if (btn.classList.contains("is-active")) {
+        btn.classList.remove("is-active");
+        btn.ariaExpanded = false;
+        content.classList.remove('block_visible');
+      } else {
+        btn.classList.add("is-active");
+        btn.ariaExpanded = true;
+        content.classList.add('block_visible');
+      }
+    });
   }
 });

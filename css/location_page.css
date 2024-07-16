@@ -612,7 +612,7 @@ section.gift_card_and_shop .gift_cards:before {
   top: -1rem;
   height: 10.9375rem;
   width: 15.0625rem;
-  background-image: url(/assets/images/components/gift_cards_and_shop/gift_cards-PL7T565A.png)
+  background-image: url(../assets/images/components/gift_cards_and_shop/gift_cards-PL7T565A.png)
 }
 
 section.gift_card_and_shop .shop {
@@ -624,7 +624,7 @@ section.gift_card_and_shop .shop:before {
   top: -.5625rem;
   height: 11.375rem;
   width: 11.625rem;
-  background-image: url(/assets/images/components/gift_cards_and_shop/shop-PM3TN6JH.png)
+  background-image: url(../assets/images/components/gift_cards_and_shop/shop-PM3TN6JH.png)
 }
 
 section.gift_card_and_shop .content {
@@ -1201,7 +1201,7 @@ screen and (min-width:48em) {
 }
 
 .about_location .video_container:not(.play) .video:before {
-  background-image: url(/assets/images/components/video/orange_play_button-OJMDOY6B.svg)
+  background-image: url(../assets/images/components/video/orange_play_button-OJMDOY6B.svg)
 }
 
 .about_location .description {
@@ -2037,7 +2037,7 @@ screen and (min-width:48em) {
     width: 18.75rem;
     padding: 1.875rem 1.875rem 0;
     background-color: #ffa400;
-    background-image: url(/assets/images/components/nearby_places_banner/bg_sm-6QYSJCYH.jpg);
+    background-image: url(../assets/images/components/nearby_places_banner/bg_sm-6QYSJCYH.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2053,7 +2053,7 @@ screen and (min-width:48em) {
     height: 10.125rem;
     width: 14.0625rem;
     margin-right: .625rem;
-    background-image: url(/assets/images/components/nearby_places_banner/map-MZOMVB7G.png);
+    background-image: url(../assets/images/components/nearby_places_banner/map-MZOMVB7G.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover

@@ -4838,11 +4838,11 @@ screen and (min-width:64em) {
 }
 
 .no-webp-lossy .cookies-acceptance-message__content-container:before {
-  background-image: url(/assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_sm-7ICBIM5M.png)
+  background-image: url(../assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_sm-7ICBIM5M.png)
 }
 
 .webp-lossy .cookies-acceptance-message__content-container:before {
-  background-image: url(/assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_sm-JXZVIPYK.webp)
+  background-image: url(../assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_sm-JXZVIPYK.webp)
 }
 
 .cookies-acceptance-message .inner_container {
@@ -4854,11 +4854,11 @@ screen and (min-width:64em) {
 @media print,
 screen and (min-width:48em) {
   .no-webp-lossy .cookies-acceptance-message__content-container:before {
-    background-image: url(/assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-FASXBXGX.png)
+    background-image: url(../assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-FASXBXGX.png)
   }
 
   .webp-lossy .cookies-acceptance-message__content-container:before {
-    background-image: url(/assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-DLTTFJ2Q.webp)
+    background-image: url(../assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-DLTTFJ2Q.webp)
   }
 }
 
@@ -4873,11 +4873,11 @@ screen and (min-width:64em) {
   }
 
   .no-webp-lossy .cookies-acceptance-message__content-container:before {
-    background-image: url(/assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-FASXBXGX.png)
+    background-image: url(../assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-FASXBXGX.png)
   }
 
   .webp-lossy .cookies-acceptance-message__content-container:before {
-    background-image: url(/assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-DLTTFJ2Q.webp)
+    background-image: url(../assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-DLTTFJ2Q.webp)
   }
 }
 

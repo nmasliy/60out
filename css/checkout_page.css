@@ -1257,7 +1257,7 @@ screen and (min-width:48em) {
   top: -4.75rem;
   height: 3.875rem;
   width: 3.875rem;
-  background-image: url(/assets/images/components/schedule/smile-OMVCOFW3.svg);
+  background-image: url(../assets/images/components/schedule/smile-OMVCOFW3.svg);
   background-position: center center;
   background-repeat: no-repeat
 }
@@ -3946,7 +3946,7 @@ screen and (min-width:48em) {
 .checkout .order_details .payment_systems_label .image {
   height: 1.3125rem;
   width: 16.25rem;
-  background-image: url(/assets/images/orders/payment_systems_sm-KYNMIDIB.png);
+  background-image: url(../assets/images/orders/payment_systems_sm-KYNMIDIB.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover
@@ -4589,7 +4589,7 @@ screen and (min-width:48em) {
   width: 7.4375rem;
   margin: 0 auto;
   margin-top: .9375rem;
-  background-image: url(/assets/images/orders/powered_by_stripe-3KG6TGEV.svg);
+  background-image: url(../assets/images/orders/powered_by_stripe-3KG6TGEV.svg);
   background-position: center center;
   background-repeat: no-repeat;
   opacity: .7
@@ -5140,12 +5140,12 @@ screen and (min-width:48em) {
 .checkout button.embedded_payment_button.apple:before {
   left: 3.75rem;
   margin-top: -.0625rem;
-  background-image: url(/assets/images/orders/apple_pay-7FADFEWT.svg)
+  background-image: url(../assets/images/orders/apple_pay-7FADFEWT.svg)
 }
 
 .checkout button.embedded_payment_button.google:before {
   left: 3.75rem;
-  background-image: url(/assets/images/orders/google_pay-QORTS6DX.svg)
+  background-image: url(../assets/images/orders/google_pay-QORTS6DX.svg)
 }
 
 .checkout button.pay_with_card_button,

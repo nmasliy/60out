@@ -841,12 +841,12 @@ screen and (min-width:48em) {
 
 .no-webp-lossy .rooms_list .room#room-escape-the-lost-piramid-vr-room:before,
 .no-webp-lossy .rooms_list .room#room-huxley-vr-room:before {
-  background-image: url(/assets/images/components/promotions_labels/vr/winner-OP3RAZYG.png)
+  background-image: url(../assets/images/components/promotions_labels/vr/winner-OP3RAZYG.png)
 }
 
 .webp-lossy .rooms_list .room#room-escape-the-lost-piramid-vr-room:before,
 .webp-lossy .rooms_list .room#room-huxley-vr-room:before {
-  background-image: url(/assets/images/components/promotions_labels/vr/winner-A5GP576K.webp)
+  background-image: url(../assets/images/components/promotions_labels/vr/winner-A5GP576K.webp)
 }
 
 .rooms_list .room#room-prince-of-persia-the-dagger-of-time-vr-room:before,
@@ -858,12 +858,12 @@ screen and (min-width:48em) {
 
 .no-webp-lossy .rooms_list .room#room-prince-of-persia-the-dagger-of-time-vr-room:before,
 .no-webp-lossy .rooms_list .room#room-beyond-medusas-gate-vr-room:before {
-  background-image: url(/assets/images/components/promotions_labels/vr/vr_awards-XTM43BNX.png)
+  background-image: url(../assets/images/components/promotions_labels/vr/vr_awards-XTM43BNX.png)
 }
 
 .webp-lossy .rooms_list .room#room-prince-of-persia-the-dagger-of-time-vr-room:before,
 .webp-lossy .rooms_list .room#room-beyond-medusas-gate-vr-room:before {
-  background-image: url(/assets/images/components/promotions_labels/vr/vr_awards-PUVJFUIS.webp)
+  background-image: url(../assets/images/components/promotions_labels/vr/vr_awards-PUVJFUIS.webp)
 }
 
 @media print,
@@ -1052,11 +1052,11 @@ screen and (min-width:48em) {
 }
 
 .no-webp-lossy .rooms_list .room.coming_soon .details .name:before {
-  background-image: url(/assets/images/pages/home_page/rooms_list/coming_soon_title-FRK7BY7T.png)
+  background-image: url(../assets/images/pages/home_page/rooms_list/coming_soon_title-FRK7BY7T.png)
 }
 
 .webp-lossy .rooms_list .room.coming_soon .details .name:before {
-  background-image: url(/assets/images/pages/home_page/rooms_list/coming_soon_title-O463SUYM.webp)
+  background-image: url(../assets/images/pages/home_page/rooms_list/coming_soon_title-O463SUYM.webp)
 }
 
 @media print,
@@ -1307,7 +1307,7 @@ screen and (min-width:48em) {
   z-index: 1;
   height: 2.75rem;
   width: 2.9375rem;
-  background-image: url(/assets/images/components/promotions_labels/heart/heart-42F2W4S7.png);
+  background-image: url(../assets/images/components/promotions_labels/heart/heart-42F2W4S7.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover
@@ -1797,7 +1797,7 @@ screen and (min-width:64em) {
 }
 
 .repainting_header_page .layout_header .top_bar div.logo a.logo {
-  background-image: url(/img/logo_white.svg)
+  background-image: url(../img/logo_white.svg)
 }
 
 .repainting_header_page .layout_header .top_bar ul.pages_nav a,
@@ -1902,11 +1902,11 @@ screen and (min-width:48em) {
 }
 
 .no-webp-lossy .online_shop_stripe.lazy_loaded .decorate_container:before {
-  background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/corner_left-3MUCI2KE.png)
+  background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/corner_left-3MUCI2KE.png)
 }
 
 .webp-lossy .online_shop_stripe.lazy_loaded .decorate_container:before {
-  background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/corner_left-AQPACQQM.webp)
+  background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/corner_left-AQPACQQM.webp)
 }
 
 .online_shop_stripe.lazy_loaded .decorate_container:after {
@@ -1917,11 +1917,11 @@ screen and (min-width:48em) {
 }
 
 .no-webp-lossy .online_shop_stripe.lazy_loaded .decorate_container:after {
-  background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/corner_right-NKI7BGLC.png)
+  background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/corner_right-NKI7BGLC.png)
 }
 
 .webp-lossy .online_shop_stripe.lazy_loaded .decorate_container:after {
-  background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/corner_right-WEJE6PSE.webp)
+  background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/corner_right-WEJE6PSE.webp)
 }
 
 .online_shop_stripe.lazy_loaded .content_container {
@@ -2134,11 +2134,11 @@ screen and (min-width:48em) {
   }
 
   .no-webp-lossy .online_shop_stripe.lazy_loaded .products {
-    background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/products_bg-N2QOGBCR.png)
+    background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/products_bg-N2QOGBCR.png)
   }
 
   .webp-lossy .online_shop_stripe.lazy_loaded .products {
-    background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/products_bg-36JMVSFB.webp)
+    background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/products_bg-36JMVSFB.webp)
   }
 
   .online_shop_stripe.lazy_loaded .products img {
@@ -2194,11 +2194,11 @@ screen and (min-width:64em) {
   }
 
   .no-webp-lossy .online_shop_stripe.lazy_loaded .logo:before {
-    background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/corner_left-3MUCI2KE.png)
+    background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/corner_left-3MUCI2KE.png)
   }
 
   .webp-lossy .online_shop_stripe.lazy_loaded .logo:before {
-    background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/corner_left-AQPACQQM.webp)
+    background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/corner_left-AQPACQQM.webp)
   }
 
   .online_shop_stripe.lazy_loaded .logo img {
@@ -2317,11 +2317,11 @@ screen and (min-width:64em) {
 }
 
 .no-webp-lossy .events.lazy_loaded {
-  background-image: url(/assets/images/pages/home_page/events/bg-ISDNKQSE.jpg)
+  background-image: url(../assets/images/pages/home_page/events/bg-ISDNKQSE.jpg)
 }
 
 .webp-lossy .events.lazy_loaded {
-  background-image: url(/assets/images/pages/home_page/events/bg-LK6BSDXU.webp)
+  background-image: url(../assets/images/pages/home_page/events/bg-LK6BSDXU.webp)
 }
 
 .events.lazy_loaded:after {
@@ -2336,11 +2336,11 @@ screen and (min-width:64em) {
 }
 
 .no-webp-lossy .events.lazy_loaded:after {
-  background-image: url(/assets/images/pages/home_page/events/bottom_corner_sm-QJXBKINR.jpg)
+  background-image: url(../assets/images/pages/home_page/events/bottom_corner_sm-QJXBKINR.jpg)
 }
 
 .webp-lossy .events.lazy_loaded:after {
-  background-image: url(/assets/images/pages/home_page/events/bottom_corner_sm-XWQZHO6J.webp)
+  background-image: url(../assets/images/pages/home_page/events/bottom_corner_sm-XWQZHO6J.webp)
 }
 
 .events.lazy_loaded .content {
@@ -2547,11 +2547,11 @@ screen and (min-width:48em) {
 
 @media screen and (min-width:48.0625em) {
   .no-webp-lossy .events.lazy_loaded:after {
-    background-image: url(/assets/images/pages/home_page/events/bottom_corner_lg-FBWQDSFE.jpg)
+    background-image: url(../assets/images/pages/home_page/events/bottom_corner_lg-FBWQDSFE.jpg)
   }
 
   .webp-lossy .events.lazy_loaded:after {
-    background-image: url(/assets/images/pages/home_page/events/bottom_corner_lg-E6MMXCQO.webp)
+    background-image: url(../assets/images/pages/home_page/events/bottom_corner_lg-E6MMXCQO.webp)
   }
 }
 
@@ -2584,11 +2584,11 @@ screen and (min-width:48em) {
   }
 
   .no-webp-lossy .events.lazy_loaded:after {
-    background-image: url(/assets/images/pages/home_page/events/bottom_corner-HGKMNTQX.jpg)
+    background-image: url(../assets/images/pages/home_page/events/bottom_corner-HGKMNTQX.jpg)
   }
 
   .webp-lossy .events.lazy_loaded:after {
-    background-image: url(/assets/images/pages/home_page/events/bottom_corner-GAUCKPTI.webp)
+    background-image: url(../assets/images/pages/home_page/events/bottom_corner-GAUCKPTI.webp)
   }
 }
 
@@ -3316,11 +3316,11 @@ screen and (min-width:64em) {
 }
 
 .no-webp-lossy .promotions_banner .content_container:before {
-  background-image: url(/assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_sm-7ICBIM5M.png)
+  background-image: url(../assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_sm-7ICBIM5M.png)
 }
 
 .webp-lossy .promotions_banner .content_container:before {
-  background-image: url(/assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_sm-JXZVIPYK.webp)
+  background-image: url(../assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_sm-JXZVIPYK.webp)
 }
 
 .promotions_banner .inner_container {
@@ -3371,11 +3371,11 @@ screen and (max-width:47.99875em) {
 @media print,
 screen and (min-width:48em) {
   .no-webp-lossy .promotions_banner .content_container:before {
-    background-image: url(/assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-FASXBXGX.png)
+    background-image: url(../assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-FASXBXGX.png)
   }
 
   .webp-lossy .promotions_banner .content_container:before {
-    background-image: url(/assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-DLTTFJ2Q.webp)
+    background-image: url(../assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-DLTTFJ2Q.webp)
   }
 
   .promotions_banner .gift_cards {
@@ -3404,11 +3404,11 @@ screen and (min-width:64em) {
   }
 
   .no-webp-lossy .promotions_banner .content_container:before {
-    background-image: url(/assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-FASXBXGX.png)
+    background-image: url(../assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-FASXBXGX.png)
   }
 
   .webp-lossy .promotions_banner .content_container:before {
-    background-image: url(/assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-DLTTFJ2Q.webp)
+    background-image: url(../assets/images/pages/home_page/promotions_banner/gift_cards_available/bg_md-DLTTFJ2Q.webp)
   }
 
   .promotions_banner .gift_cards {
@@ -3473,11 +3473,11 @@ screen and (min-width:64em) {
 }
 
 .no-webp-lossy .promotions_slider .godzilla_vs_kong_prebooking_open.slider__slide--woken {
-  background-image: url(/assets/images/pages/home_page/promotions_slider/godzilla_vs_kong_prebooking_open/bg-sm-Q5RMDB74.png)
+  background-image: url(../assets/images/pages/home_page/promotions_slider/godzilla_vs_kong_prebooking_open/bg-sm-Q5RMDB74.png)
 }
 
 .webp-lossy .promotions_slider .godzilla_vs_kong_prebooking_open.slider__slide--woken {
-  background-image: url(/assets/images/pages/home_page/promotions_slider/godzilla_vs_kong_prebooking_open/bg-sm-UBGUWBLK.webp)
+  background-image: url(../assets/images/pages/home_page/promotions_slider/godzilla_vs_kong_prebooking_open/bg-sm-UBGUWBLK.webp)
 }
 
 .promotions_slider .godzilla_vs_kong_prebooking_open .description {
@@ -3571,11 +3571,11 @@ screen and (min-width:48em) {
 
 @media screen and (min-width:80em) {
   .no-webp-lossy .promotions_slider .godzilla_vs_kong_prebooking_open.slider__slide--woken {
-    background-image: url(/assets/images/pages/home_page/promotions_slider/godzilla_vs_kong_prebooking_open/bg-BYCIVIM5.png)
+    background-image: url(../assets/images/pages/home_page/promotions_slider/godzilla_vs_kong_prebooking_open/bg-BYCIVIM5.png)
   }
 
   .webp-lossy .promotions_slider .godzilla_vs_kong_prebooking_open.slider__slide--woken {
-    background-image: url(/assets/images/pages/home_page/promotions_slider/godzilla_vs_kong_prebooking_open/bg-3LPKLO37.webp)
+    background-image: url(../assets/images/pages/home_page/promotions_slider/godzilla_vs_kong_prebooking_open/bg-3LPKLO37.webp)
   }
 
   .promotions_slider .godzilla_vs_kong_prebooking_open .image_container {
@@ -3813,11 +3813,11 @@ screen and (min-width:64em) {
 }
 
 .no-webp-lossy .promotions_slider .scratch.slider__slide--woken {
-  background-image: url(/assets/images/pages/home_page/promotions_slider/scratch/bg-sm-FUFKW4HF.png)
+  background-image: url(../assets/images/pages/home_page/promotions_slider/scratch/bg-sm-FUFKW4HF.png)
 }
 
 .webp-lossy .promotions_slider .scratch.slider__slide--woken {
-  background-image: url(/assets/images/pages/home_page/promotions_slider/scratch/bg-sm-PDRXR3ZX.webp)
+  background-image: url(../assets/images/pages/home_page/promotions_slider/scratch/bg-sm-PDRXR3ZX.webp)
 }
 
 .promotions_slider .scratch .content_container {
@@ -3902,8 +3902,8 @@ screen and (min-width:64em) {
   height: 1.1875rem;
   width: 1.1875rem;
   background-color: #0a0a0a;
-  -webkit-mask: url(/assets/images/pages/home_page/promotions_slider/info-icon-R6UCPBSZ.svg) no-repeat center/cover;
-  mask: url(/assets/images/pages/home_page/promotions_slider/info-icon-R6UCPBSZ.svg) no-repeat center/cover
+  -webkit-mask: url(../assets/images/pages/home_page/promotions_slider/info-icon.svg) no-repeat center/cover;
+  mask: url(../assets/images/pages/home_page/promotions_slider/info-icon.svg) no-repeat center/cover
 }
 
 .promotions_slider .scratch .note-title span {
@@ -4018,11 +4018,11 @@ screen and (min-width:64em) {
 
 @media screen and (min-width:80em) {
   .no-webp-lossy .promotions_slider .scratch.slider__slide--woken {
-    background-image: url(/assets/images/pages/home_page/promotions_slider/scratch/bg-K5UZZJN5.png)
+    background-image: url(../assets/images/pages/home_page/promotions_slider/scratch/bg-K5UZZJN5.png)
   }
 
   .webp-lossy .promotions_slider .scratch.slider__slide--woken {
-    background-image: url(/assets/images/pages/home_page/promotions_slider/scratch/bg-43CI57KQ.webp)
+    background-image: url(../assets/images/pages/home_page/promotions_slider/scratch/bg-43CI57KQ.webp)
   }
 
   .promotions_slider .scratch .description1 .description-content {
@@ -4075,11 +4075,11 @@ screen and (min-width:64em) {
 }
 
 .no-webp-lossy .promotions_slider .unforgettable_experience.slider__slide--woken {
-  background-image: url(/assets/images/pages/home_page/promotions_slider/unforgettable_experience/bg_sm-NPAHUBQD.jpg)
+  background-image: url(../assets/images/pages/home_page/promotions_slider/unforgettable_experience/bg_sm-NPAHUBQD.jpg)
 }
 
 .webp-lossy .promotions_slider .unforgettable_experience.slider__slide--woken {
-  background-image: url(/assets/images/pages/home_page/promotions_slider/unforgettable_experience/bg_sm-LNOZCQ3J.webp)
+  background-image: url(../assets/images/pages/home_page/promotions_slider/unforgettable_experience/bg_sm-LNOZCQ3J.webp)
 }
 
 .promotions_slider .unforgettable_experience .title {
@@ -4222,11 +4222,11 @@ screen and (min-width:48em) {
 @media print,
 screen and (min-width:64em) {
   .no-webp-lossy .promotions_slider .unforgettable_experience.slider__slide--woken {
-    background-image: url(/assets/images/pages/home_page/promotions_slider/unforgettable_experience/bg-O2YXVOD6.jpg)
+    background-image: url(../assets/images/pages/home_page/promotions_slider/unforgettable_experience/bg-O2YXVOD6.jpg)
   }
 
   .webp-lossy .promotions_slider .unforgettable_experience.slider__slide--woken {
-    background-image: url(/assets/images/pages/home_page/promotions_slider/unforgettable_experience/bg-64ZGAHIF.webp)
+    background-image: url(../assets/images/pages/home_page/promotions_slider/unforgettable_experience/bg-64ZGAHIF.webp)
   }
 
   .promotions_slider .unforgettable_experience .description {

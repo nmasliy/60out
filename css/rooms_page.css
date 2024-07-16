@@ -775,12 +775,12 @@ screen and (min-width:48em) {
 
 .no-webp-lossy .rooms_list .room#room-escape-the-lost-piramid-vr-room:before,
 .no-webp-lossy .rooms_list .room#room-huxley-vr-room:before {
-  background-image: url(/assets/images/components/promotions_labels/vr/winner-OP3RAZYG.png)
+  background-image: url(../assets/images/components/promotions_labels/vr/winner-OP3RAZYG.png)
 }
 
 .webp-lossy .rooms_list .room#room-escape-the-lost-piramid-vr-room:before,
 .webp-lossy .rooms_list .room#room-huxley-vr-room:before {
-  background-image: url(/assets/images/components/promotions_labels/vr/winner-A5GP576K.webp)
+  background-image: url(../assets/images/components/promotions_labels/vr/winner-A5GP576K.webp)
 }
 
 .rooms_list .room#room-prince-of-persia-the-dagger-of-time-vr-room:before,
@@ -792,12 +792,12 @@ screen and (min-width:48em) {
 
 .no-webp-lossy .rooms_list .room#room-prince-of-persia-the-dagger-of-time-vr-room:before,
 .no-webp-lossy .rooms_list .room#room-beyond-medusas-gate-vr-room:before {
-  background-image: url(/assets/images/components/promotions_labels/vr/vr_awards-XTM43BNX.png)
+  background-image: url(../assets/images/components/promotions_labels/vr/vr_awards-XTM43BNX.png)
 }
 
 .webp-lossy .rooms_list .room#room-prince-of-persia-the-dagger-of-time-vr-room:before,
 .webp-lossy .rooms_list .room#room-beyond-medusas-gate-vr-room:before {
-  background-image: url(/assets/images/components/promotions_labels/vr/vr_awards-PUVJFUIS.webp)
+  background-image: url(../assets/images/components/promotions_labels/vr/vr_awards-PUVJFUIS.webp)
 }
 
 @media print,
@@ -986,11 +986,11 @@ screen and (min-width:48em) {
 }
 
 .no-webp-lossy .rooms_list .room.coming_soon .details .name:before {
-  background-image: url(/assets/images/pages/home_page/rooms_list/coming_soon_title-FRK7BY7T.png)
+  background-image: url(../assets/images/pages/home_page/rooms_list/coming_soon_title-FRK7BY7T.png)
 }
 
 .webp-lossy .rooms_list .room.coming_soon .details .name:before {
-  background-image: url(/assets/images/pages/home_page/rooms_list/coming_soon_title-O463SUYM.webp)
+  background-image: url(../assets/images/pages/home_page/rooms_list/coming_soon_title-O463SUYM.webp)
 }
 
 @media print,
@@ -1241,7 +1241,7 @@ screen and (min-width:48em) {
   z-index: 1;
   height: 2.75rem;
   width: 2.9375rem;
-  background-image: url(/assets/images/components/promotions_labels/heart/heart-42F2W4S7.png);
+  background-image: url(../assets/images/components/promotions_labels/heart/heart-42F2W4S7.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover
@@ -1713,7 +1713,7 @@ screen and (min-width:64em) {
 }
 
 .repainting_header_page .layout_header .top_bar div.logo a.logo {
-  background-image: url(/assets/images/layout/logos/logo_white-BF3REDMR.svg)
+  background-image: url(../img/logo_white.svg)
 }
 
 .repainting_header_page .layout_header .top_bar ul.pages_nav a,
@@ -1732,7 +1732,7 @@ screen and (min-width:64em) {
 }
 
 .repainting_header_page .layout_header.repainted .top_bar div.logo a.logo {
-  background-image: url(/assets/images/layout/logos/logo_black-EVNQOWJA.svg)
+  background-image: url(../assets/images/layout/logos/logo_black-EVNQOWJA.svg)
 }
 
 .repainting_header_page .layout_header.repainted .top_bar ul.pages_nav a,
@@ -1790,11 +1790,11 @@ screen and (min-width:64em) {
 }
 
 .no-webp-lossy .online_shop_stripe.lazy_loaded .decorate_container:before {
-  background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/corner_left-3MUCI2KE.png)
+  background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/corner_left-3MUCI2KE.png)
 }
 
 .webp-lossy .online_shop_stripe.lazy_loaded .decorate_container:before {
-  background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/corner_left-AQPACQQM.webp)
+  background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/corner_left-AQPACQQM.webp)
 }
 
 .online_shop_stripe.lazy_loaded .decorate_container:after {
@@ -1805,11 +1805,11 @@ screen and (min-width:64em) {
 }
 
 .no-webp-lossy .online_shop_stripe.lazy_loaded .decorate_container:after {
-  background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/corner_right-NKI7BGLC.png)
+  background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/corner_right-NKI7BGLC.png)
 }
 
 .webp-lossy .online_shop_stripe.lazy_loaded .decorate_container:after {
-  background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/corner_right-WEJE6PSE.webp)
+  background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/corner_right-WEJE6PSE.webp)
 }
 
 .online_shop_stripe.lazy_loaded .content_container {
@@ -2019,11 +2019,11 @@ screen and (min-width:48em) {
   }
 
   .no-webp-lossy .online_shop_stripe.lazy_loaded .products {
-    background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/products_bg-N2QOGBCR.png)
+    background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/products_bg-N2QOGBCR.png)
   }
 
   .webp-lossy .online_shop_stripe.lazy_loaded .products {
-    background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/products_bg-36JMVSFB.webp)
+    background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/products_bg-36JMVSFB.webp)
   }
 
   .online_shop_stripe.lazy_loaded .products img {
@@ -2079,11 +2079,11 @@ screen and (min-width:64em) {
   }
 
   .no-webp-lossy .online_shop_stripe.lazy_loaded .logo:before {
-    background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/corner_left-3MUCI2KE.png)
+    background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/corner_left-3MUCI2KE.png)
   }
 
   .webp-lossy .online_shop_stripe.lazy_loaded .logo:before {
-    background-image: url(/assets/images/pages/home_page/online_shop_stripe/default/corner_left-AQPACQQM.webp)
+    background-image: url(../assets/images/pages/home_page/online_shop_stripe/default/corner_left-AQPACQQM.webp)
   }
 
   .online_shop_stripe.lazy_loaded .logo img {
@@ -2208,7 +2208,7 @@ screen and (min-width:64em) {
   bottom: 0;
   height: 10.5625rem;
   width: 34.0625rem;
-  background-image: url(/assets/images/components/category_descriptions/all_rooms/image_sm-K4LQQYGQ.jpg);
+  background-image: url(../assets/images/components/category_descriptions/all_rooms/image_sm-K4LQQYGQ.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover
@@ -2247,7 +2247,7 @@ screen and (min-width:64em) {
     transform: translate(0);
     height: 16.25rem;
     width: 41.5625rem;
-    background-image: url(/assets/images/components/category_descriptions/all_rooms/image-JOGR3K5G.jpg)
+    background-image: url(../assets/images/components/category_descriptions/all_rooms/image-JOGR3K5G.jpg)
   }
 }
 
@@ -2267,7 +2267,7 @@ screen and (min-width:64em) {
 
 @media screen and (min-width:120em) {
   .category_descriptions .all_rooms {
-    background-image: url(/assets/images/components/category_descriptions/all_rooms/bg-H2KFHP5V.jpg);
+    background-image: url(../assets/images/components/category_descriptions/all_rooms/bg-H2KFHP5V.jpg);
     background-position: left bottom;
     background-size: auto 360px
   }
@@ -2275,7 +2275,7 @@ screen and (min-width:64em) {
 
 .category_descriptions .for_beginners {
   background-color: #0b1c25;
-  background-image: url(/assets/images/components/category_descriptions/for_beginners/bg-QBUPA7LI.jpg);
+  background-image: url(../assets/images/components/category_descriptions/for_beginners/bg-QBUPA7LI.jpg);
   background-position: top left;
   background-repeat: repeat;
   background-size: auto
@@ -2323,14 +2323,14 @@ screen and (min-width:64em) {
   left: 0;
   height: 2.5625rem;
   width: 13.9375rem;
-  background-image: url(/assets/images/components/category_descriptions/for_beginners/stripe_left-4XGSRHFQ.png)
+  background-image: url(../assets/images/components/category_descriptions/for_beginners/stripe_left-4XGSRHFQ.png)
 }
 
 .category_descriptions .for_beginners .dec_stripes:after {
   right: 0;
   height: 2.9375rem;
   width: 11.625rem;
-  background-image: url(/assets/images/components/category_descriptions/for_beginners/stripe_right-VMWDQ3EL.png)
+  background-image: url(../assets/images/components/category_descriptions/for_beginners/stripe_right-VMWDQ3EL.png)
 }
 
 .category_descriptions .for_beginners .content_container {
@@ -2343,7 +2343,7 @@ screen and (min-width:64em) {
   z-index: 1;
   height: 9.9375rem;
   width: 27.8125rem;
-  background-image: url(/assets/images/components/category_descriptions/for_beginners/image-64ODXN37.png);
+  background-image: url(../assets/images/components/category_descriptions/for_beginners/image-64ODXN37.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover
@@ -2423,7 +2423,7 @@ screen and (min-width:64em) {
 }
 
 .category_descriptions .for_big_companies {
-  background-image: url(/assets/images/components/category_descriptions/for_big_companies/bg-57FINVNX.jpg)
+  background-image: url(../assets/images/components/category_descriptions/for_big_companies/bg-57FINVNX.jpg)
 }
 
 .category_descriptions .for_big_companies .content_container {
@@ -2435,7 +2435,7 @@ screen and (min-width:64em) {
   bottom: 0;
   height: 10.5625rem;
   width: 27.1875rem;
-  background-image: url(/assets/images/components/category_descriptions/for_big_companies/people-P7XYMEWE.png);
+  background-image: url(../assets/images/components/category_descriptions/for_big_companies/people-P7XYMEWE.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover
@@ -2483,27 +2483,27 @@ screen and (min-width:64em) {
 }
 
 .category_descriptions .for_experts {
-  background-image: url(/assets/images/components/category_descriptions/for_experts/bg_sm-4KCNE2NX.jpg)
+  background-image: url(../assets/images/components/category_descriptions/for_experts/bg_sm-4KCNE2NX.jpg)
 }
 
 @media print,
 screen and (min-width:48em) {
   .category_descriptions .for_experts {
-    background-image: url(/assets/images/components/category_descriptions/for_experts/bg_md-7RX5CPGB.jpg);
+    background-image: url(../assets/images/components/category_descriptions/for_experts/bg_md-7RX5CPGB.jpg);
     background-position: right bottom
   }
 }
 
 @media screen and (min-width:90em) {
   .category_descriptions .for_experts {
-    background-image: url(/assets/images/components/category_descriptions/for_experts/bg-U5VEIV2J.jpg);
+    background-image: url(../assets/images/components/category_descriptions/for_experts/bg-U5VEIV2J.jpg);
     background-position: center center
   }
 }
 
 .category_descriptions .for_family {
   background-color: #d48205;
-  background-image: url(/assets/images/components/category_descriptions/for_family/bg_sm-ZD2PLOGN.jpg);
+  background-image: url(../assets/images/components/category_descriptions/for_family/bg_sm-ZD2PLOGN.jpg);
   background-position: center center;
   background-size: auto auto
 }
@@ -2523,14 +2523,14 @@ screen and (min-width:48em) {
 @media print,
 screen and (min-width:48em) {
   .category_descriptions .for_family {
-    background-image: url(/assets/images/components/category_descriptions/for_family/bg_md-3BPOLSML.jpg);
+    background-image: url(../assets/images/components/category_descriptions/for_family/bg_md-3BPOLSML.jpg);
     background-position: right bottom
   }
 }
 
 @media screen and (min-width:80em) {
   .category_descriptions .for_family {
-    background-image: url(/assets/images/components/category_descriptions/for_family/bg_xlg-2UFGX2ZO.jpg);
+    background-image: url(../assets/images/components/category_descriptions/for_family/bg_xlg-2UFGX2ZO.jpg);
     background-size: auto 335px
   }
 }
@@ -2543,7 +2543,7 @@ screen and (min-width:48em) {
 
 .category_descriptions .horror {
   background-color: #100e11;
-  background-image: url(/assets/images/components/category_descriptions/horror/bg_sm-TFNLAFIV.jpg)
+  background-image: url(../assets/images/components/category_descriptions/horror/bg_sm-TFNLAFIV.jpg)
 }
 
 @media print,
@@ -2574,7 +2574,7 @@ screen and (min-width:48em) {
 @media print,
 screen and (min-width:64em) {
   .category_descriptions .horror {
-    background-image: url(/assets/images/components/category_descriptions/horror/bg_lg-POQMLU6K.jpg);
+    background-image: url(../assets/images/components/category_descriptions/horror/bg_lg-POQMLU6K.jpg);
     background-position: right bottom
   }
 
@@ -2585,40 +2585,40 @@ screen and (min-width:64em) {
 
 @media screen and (min-width:90em) {
   .category_descriptions .horror {
-    background-image: url(/assets/images/components/category_descriptions/horror/bg-H26EYWFI.jpg);
+    background-image: url(../assets/images/components/category_descriptions/horror/bg-H26EYWFI.jpg);
     background-position: center bottom
   }
 }
 
 .category_descriptions .longer_than_60 {
-  background-image: url(/assets/images/components/category_descriptions/longer_than_60/bg_sm-JKE63WK7.jpg);
+  background-image: url(../assets/images/components/category_descriptions/longer_than_60/bg_sm-JKE63WK7.jpg);
   background-position: center center
 }
 
 @media print,
 screen and (min-width:48em) {
   .category_descriptions .longer_than_60 {
-    background-image: url(/assets/images/components/category_descriptions/longer_than_60/bg_md-OVKMPQVA.jpg);
+    background-image: url(../assets/images/components/category_descriptions/longer_than_60/bg_md-OVKMPQVA.jpg);
     background-position: right center
   }
 }
 
 @media screen and (min-width:90em) {
   .category_descriptions .longer_than_60 {
-    background-image: url(/assets/images/components/category_descriptions/longer_than_60/bg-O2UXMTDC.jpg);
+    background-image: url(../assets/images/components/category_descriptions/longer_than_60/bg-O2UXMTDC.jpg);
     background-position: center center
   }
 }
 
 @media screen and (min-width:120.0625em) {
   .category_descriptions .longer_than_60 {
-    background-image: url(/assets/images/components/category_descriptions/longer_than_60/bg_extra_large-B7EPBEXH.jpg);
+    background-image: url(../assets/images/components/category_descriptions/longer_than_60/bg_extra_large-B7EPBEXH.jpg);
     background-position: center center
   }
 }
 
 .category_descriptions .online_escape_games {
-  background-image: url(/assets/images/components/category_descriptions/online_escape_games/bg_sm-JE7BHDHU.jpg)
+  background-image: url(../assets/images/components/category_descriptions/online_escape_games/bg_sm-JE7BHDHU.jpg)
 }
 
 .category_descriptions .online_escape_games .description {
@@ -2646,7 +2646,7 @@ screen and (min-width:48em) {
 @media print,
 screen and (min-width:64em) {
   .category_descriptions .online_escape_games {
-    background-image: url(/assets/images/components/category_descriptions/online_escape_games/bg_lg-PVXH4SYK.jpg)
+    background-image: url(../assets/images/components/category_descriptions/online_escape_games/bg_lg-PVXH4SYK.jpg)
   }
 
   .category_descriptions .online_escape_games .text {
@@ -2656,7 +2656,7 @@ screen and (min-width:64em) {
 
 @media screen and (min-width:90em) {
   .category_descriptions .online_escape_games {
-    background-image: url(/assets/images/components/category_descriptions/online_escape_games/bg_xxlg-ST5XIRQ2.jpg)
+    background-image: url(../assets/images/components/category_descriptions/online_escape_games/bg_xxlg-ST5XIRQ2.jpg)
   }
 
   .category_descriptions .online_escape_games .description {
@@ -2666,7 +2666,7 @@ screen and (min-width:64em) {
 
 @media screen and (min-width:106.25em) {
   .category_descriptions .online_escape_games {
-    background-image: url(/assets/images/components/category_descriptions/online_escape_games/bg-5ODUK6QA.jpg)
+    background-image: url(../assets/images/components/category_descriptions/online_escape_games/bg-5ODUK6QA.jpg)
   }
 
   .category_descriptions .online_escape_games .description {
@@ -2680,16 +2680,16 @@ screen and (min-width:64em) {
 
 @media screen and (min-width:120.0625em) {
   .category_descriptions .online_escape_games {
-    background-image: url(/assets/images/components/category_descriptions/online_escape_games/bg_extra_large-Y3EFEGGW.jpg)
+    background-image: url(../assets/images/components/category_descriptions/online_escape_games/bg_extra_large-Y3EFEGGW.jpg)
   }
 }
 
 .no-webp-lossy .category_descriptions .vr_rooms {
-  background-image: url(/assets/images/components/category_descriptions/vr_rooms/bg_sm-IHW7WOFT.jpg)
+  background-image: url(../assets/images/components/category_descriptions/vr_rooms/bg_sm-IHW7WOFT.jpg)
 }
 
 .webp-lossy .category_descriptions .vr_rooms {
-  background-image: url(/assets/images/components/category_descriptions/vr_rooms/bg_sm-UTXSUQYJ.webp)
+  background-image: url(../assets/images/components/category_descriptions/vr_rooms/bg_sm-UTXSUQYJ.webp)
 }
 
 .category_descriptions .vr_rooms .content_container {
@@ -2741,11 +2741,11 @@ screen and (min-width:64em) {
   }
 
   .no-webp-lossy .category_descriptions .vr_rooms {
-    background-image: url(/assets/images/components/category_descriptions/vr_rooms/bg_lg-Q3T3KGIC.jpg)
+    background-image: url(../assets/images/components/category_descriptions/vr_rooms/bg_lg-Q3T3KGIC.jpg)
   }
 
   .webp-lossy .category_descriptions .vr_rooms {
-    background-image: url(/assets/images/components/category_descriptions/vr_rooms/bg_lg-Z2HHC7EP.webp)
+    background-image: url(../assets/images/components/category_descriptions/vr_rooms/bg_lg-Z2HHC7EP.webp)
   }
 }
 
@@ -2767,11 +2767,11 @@ screen and (min-width:64em) {
   }
 
   .no-webp-lossy .category_descriptions .vr_rooms {
-    background-image: url(/assets/images/components/category_descriptions/vr_rooms/bg-KLQBYR7Q.jpg)
+    background-image: url(../assets/images/components/category_descriptions/vr_rooms/bg-KLQBYR7Q.jpg)
   }
 
   .webp-lossy .category_descriptions .vr_rooms {
-    background-image: url(/assets/images/components/category_descriptions/vr_rooms/bg-ARTPVGOO.webp)
+    background-image: url(../assets/images/components/category_descriptions/vr_rooms/bg-ARTPVGOO.webp)
   }
 
   .category_descriptions .vr_rooms .content_container {

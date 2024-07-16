@@ -757,7 +757,7 @@ span.border-load_spinner {
 }
 
 .repainting_header_page .layout_header .top_bar div.logo a.logo {
-  background-image: url(/assets/images/layout/logos/logo_white-BF3REDMR.svg)
+  background-image: url(../img/logo_white.svg)
 }
 
 .repainting_header_page .layout_header .top_bar ul.pages_nav a,
@@ -776,7 +776,7 @@ span.border-load_spinner {
 }
 
 .repainting_header_page .layout_header.repainted .top_bar div.logo a.logo {
-  background-image: url(/assets/images/layout/logos/logo_black-EVNQOWJA.svg)
+  background-image: url(../assets/images/layout/logos/logo_black-EVNQOWJA.svg)
 }
 
 .repainting_header_page .layout_header.repainted .top_bar ul.pages_nav a,
@@ -1769,7 +1769,7 @@ screen and (min-width:48em) {
   top: -4.75rem;
   height: 3.875rem;
   width: 3.875rem;
-  background-image: url(/assets/images/components/schedule/smile-OMVCOFW3.svg);
+  background-image: url(../assets/images/components/schedule/smile-OMVCOFW3.svg);
   background-position: center center;
   background-repeat: no-repeat
 }
@@ -3840,12 +3840,12 @@ screen and (min-width:48em) {
 
 .about_room .promo_text .title:before {
   left: 0;
-  background-image: url(/assets/images/pages/rooms/jumanji/title_left_plant.png)
+  background-image: url(../assets/images/pages/rooms/jumanji/title_left_plant.png)
 }
 
 .about_room .promo_text .title:after {
   right: 0;
-  background-image: url(/assets/images/pages/rooms/jumanji/title_right_plant.png)
+  background-image: url(../assets/images/pages/rooms/jumanji/title_right_plant.png)
 }
 
 @media print,
@@ -4336,7 +4336,7 @@ screen and (min-width:48em) {
 }
 
 .media_place .video:before {
-  background-image: url(/assets/images/components/video/white_play_button-GT3NM4QF.png);
+  background-image: url(../assets/images/components/video/white_play_button-GT3NM4QF.png);
   opacity: .5
 }
 
@@ -4840,12 +4840,12 @@ screen and (min-width:48em) {
 
 .reviews_and_rating .section_title:before {
   left: 0;
-  background-image: url(/assets/images/pages/rooms/jumanji/title_left_plant.png)
+  background-image: url(../assets/images/pages/rooms/jumanji/title_left_plant.png)
 }
 
 .reviews_and_rating .section_title:after {
   right: 0;
-  background-image: url(/assets/images/pages/rooms/jumanji/title_right_plant.png)
+  background-image: url(../assets/images/pages/rooms/jumanji/title_right_plant.png)
 }
 
 @media print,
@@ -6096,7 +6096,7 @@ screen and (min-width:48em) {
   z-index: 1;
   height: 9.0625rem;
   width: 6.75rem;
-  background-image: url(/assets/images/pages/components/schedule/dollar-NXUWQWT3.png);
+  background-image: url(../assets/images/pages/components/schedule/dollar-NXUWQWT3.png);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover
@@ -7289,13 +7289,13 @@ screen and (min-width:48em) {
 .start_adventure h1:before,
 .start_adventure h2:before {
   left: 0;
-  background-image: url(/assets/images/pages/rooms/jumanji/title_left_plant.png)
+  background-image: url(../assets/images/pages/rooms/jumanji/title_left_plant.png)
 }
 
 .start_adventure h1:after,
 .start_adventure h2:after {
   right: 0;
-  background-image: url(/assets/images/pages/rooms/jumanji/title_right_plant.png)
+  background-image: url(../assets/images/pages/rooms/jumanji/title_right_plant.png)
 }
 
 @media print,

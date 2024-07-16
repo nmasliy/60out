@@ -2001,7 +2001,7 @@ screen and (min-width:48em) {
   top: -4.75rem;
   height: 3.875rem;
   width: 3.875rem;
-  background-image: url(/assets/images/components/schedule/smile-OMVCOFW3.svg);
+  background-image: url(../assets/images/components/schedule/smile-OMVCOFW3.svg);
   background-position: center center;
   background-repeat: no-repeat
 }
@@ -3075,7 +3075,7 @@ section.nearby_places_banner .link_to_nearby_places_page {
   padding: .875rem 9.0625rem .625rem .625rem;
   border-radius: .3125rem;
   background-color: #ffa400;
-  background-image: url(/assets/images/components/nearby_places_banner/bg-CNYOKTRG.png);
+  background-image: url(../assets/images/components/nearby_places_banner/bg-CNYOKTRG.png);
   background-position: 0 0;
   background-repeat: no-repeat;
   box-shadow: 0 0 13px #0a0a0a1a;
@@ -3090,7 +3090,7 @@ section.nearby_places_banner .link_to_nearby_places_page:before {
   right: -.625rem;
   height: 6rem;
   width: 8.375rem;
-  background-image: url(/assets/images/components/nearby_places_banner/map-MZOMVB7G.png);
+  background-image: url(../assets/images/components/nearby_places_banner/map-MZOMVB7G.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover
@@ -4595,7 +4595,7 @@ screen and (min-width:48em) {
   z-index: 1;
   height: 2.75rem;
   width: 2.9375rem;
-  background-image: url(/assets/images/components/promotions_labels/heart/heart-42F2W4S7.png);
+  background-image: url(../assets/images/components/promotions_labels/heart/heart-42F2W4S7.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover
@@ -6430,7 +6430,7 @@ screen and (min-width:48em) {
   z-index: 1;
   height: 9.0625rem;
   width: 6.75rem;
-  background-image: url(/assets/images/pages/components/schedule/dollar-NXUWQWT3.png);
+  background-image: url(../assets/images/pages/components/schedule/dollar-NXUWQWT3.png);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover

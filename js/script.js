@@ -260,7 +260,7 @@ window.addEventListener("DOMContentLoaded", function () {
         callback(webP.height === 2);
       };
       webP.src =
-        "data:image/webp;base64,UklGRh4AAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbRm2mkBGCp0fU6DX/ua1fsv5g4ECsVoqJ07qqd71u7l5Ko/6AdpZjKX//M4zWhlgKZlP/9jIf9cAQ==";
+        "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA";
     }
 
     supportsWebP(function (supported) {

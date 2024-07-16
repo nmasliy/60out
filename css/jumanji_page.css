@@ -3840,12 +3840,12 @@ screen and (min-width:48em) {
 
 .about_room .promo_text .title:before {
   left: 0;
-  background-image: url(/assets/images/pages/rooms/jumanji/title_left_plant-5PSOGS5R.png)
+  background-image: url(/assets/images/pages/rooms/jumanji/title_left_plant.png)
 }
 
 .about_room .promo_text .title:after {
   right: 0;
-  background-image: url(/assets/images/pages/rooms/jumanji/title_right_plant-COVF3EHP.png)
+  background-image: url(/assets/images/pages/rooms/jumanji/title_right_plant.png)
 }
 
 @media print,
@@ -4840,12 +4840,12 @@ screen and (min-width:48em) {
 
 .reviews_and_rating .section_title:before {
   left: 0;
-  background-image: url(/assets/images/pages/rooms/jumanji/title_left_plant-5PSOGS5R.png)
+  background-image: url(/assets/images/pages/rooms/jumanji/title_left_plant.png)
 }
 
 .reviews_and_rating .section_title:after {
   right: 0;
-  background-image: url(/assets/images/pages/rooms/jumanji/title_right_plant-COVF3EHP.png)
+  background-image: url(/assets/images/pages/rooms/jumanji/title_right_plant.png)
 }
 
 @media print,
@@ -7289,13 +7289,13 @@ screen and (min-width:48em) {
 .start_adventure h1:before,
 .start_adventure h2:before {
   left: 0;
-  background-image: url(/assets/images/pages/rooms/jumanji/title_left_plant-5PSOGS5R.png)
+  background-image: url(/assets/images/pages/rooms/jumanji/title_left_plant.png)
 }
 
 .start_adventure h1:after,
 .start_adventure h2:after {
   right: 0;
-  background-image: url(/assets/images/pages/rooms/jumanji/title_right_plant-COVF3EHP.png)
+  background-image: url(/assets/images/pages/rooms/jumanji/title_right_plant.png)
 }
 
 @media print,
